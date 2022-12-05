@@ -1,0 +1,84 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+
+    /*Color Styles*/
+    --primary: #FBC257;
+    --primary-light: #FCCC73;
+    --dark-brown: #341413;
+    --gray-1: #798092;
+    --gray-2: #E6E6ED;
+    --white: #FFF;
+
+    /*Font size desktop*/
+    --header-1: 64px;
+    --header-2: 48px;
+    --header-3: 42px;
+    --header-4: 32px;
+
+    --text-medium: 18px;
+    --text-regular: 16px;
+    --text-light: 13px;
+
+    /*Font weight*/
+    --font-weight-bold: 700;
+    --font-weight-semi-bold: 600;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+    --font-weight-light: 300;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Button Primary*/
+.btn {
+    padding: 15px 25px;
+    border-radius: 6px;
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-medium);
+}
+
+.btn-primary {
+    background-color: var(--primary-light);
+    border-right: none;
+}
+
+.btn-primary:focus {
+    background-color: var(--primary-light);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-light)
+}
+
+/*Button Secondary*/
+.btn-secondary {
+    background-color: var(--gray-2);
+    color: var(--gray-1);
+}
+
+.btn-secondary:focus {
+    background-color: var(--white);
+    box-shadow: 0 4px 19px rgba(0, 0, 0, 0.05) !important;
+    color: var(--gray-1);
+}
+
+.btn-secondary:hover {
+    background-color: var(--white) !important;
+    box-shadow: 0 4px 19px rgba(0, 0, 0, 0.05) !important;
+    color: var(--gray-1);
+}
+
+/*Navbar*/
+.navbar-brand img {
+    padding-right: 16px;
+}
+
+.navbar-brand span {
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-medium);
+    color: var(--dark-brown) !important;
+}
