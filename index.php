@@ -16,14 +16,8 @@
 <body>
     <?php include("includes/navbar.php") ?>
 
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/img/banner.png" class="d-block w-70" alt="...">
-            </div>
+    <?php include("includes/hero.php") ?>
 
-        </div>
-    </div>
 
     <ul class="list-group list-group-flush">
         <li class="list-group-item">An item</li>
